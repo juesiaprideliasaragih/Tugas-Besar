@@ -137,7 +137,7 @@ def teacher_dashboard(username):
 
     dashboard = tk.Toplevel(root)
     dashboard.title(f"Teacher Dashboard - {username}")
-    dashboard.geometry("600x500")
+    dashboard.geometry("600x700")
     dashboard.configure(bg=BG_HEADER)
 
     # Create frame to hold the quiz management section
